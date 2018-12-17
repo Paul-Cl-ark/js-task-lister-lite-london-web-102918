@@ -22,6 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
     listEl.appendChild(newToDo)
     newToDo.appendChild(newDeleteBut)
     newDeleteBut.addEventListener('click', deleteToDo)
+    inputEl.value = ''
   }
 
   function deleteToDo (event) {
